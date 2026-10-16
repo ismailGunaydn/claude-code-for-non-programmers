@@ -1,0 +1,58 @@
+# ==========================================================
+# .gitignore starter
+# From "Claude Code for Non-Programmers", Chapters 20 and 22.
+#
+# How to use:
+#   Option A: save this as a file named .gitignore in your
+#             project folder.
+#   Option B: ask Claude Code: "Set this file up as my
+#             global git ignore file, so it covers every
+#             project on this computer."
+#
+# Ignoring a file does NOT remove it from git if it was
+# already committed. If a secret was committed, follow the
+# leak steps in the pre-share checklist and revoke it.
+# ==========================================================
+
+# ==========================================
+# NEVER COMMIT: secrets and private settings
+# ==========================================
+
+# Environment files hold keys. Share the example only.
+.env
+.env.*
+!.env.example
+
+# Credential and token files from tools and connectors
+*secret*.json
+*credentials*.json
+*token*.json
+*.pem
+*.key
+
+# Claude Code's private local files
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Private folders
+secrets/
+private/
+
+# ==========================================
+# NEVER COMMIT: big folders you can rebuild
+# ==========================================
+node_modules/
+.cache/
+
+# ==========================================
+# Operating system clutter
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# DO commit (do not add these here):
+#   documentation, task lists, audit reports,
+#   CLAUDE.md, .claude/settings.json (shared rules),
+#   .env.example (names only, no values)
+# ==========================================

@@ -1,0 +1,11 @@
+CLAUDE.MD SANITY CHECK (paste into a fresh session)
+
+Read every instruction file that loaded in this session.
+Answer in exactly three lines:
+1. Which business or project do these instructions describe?
+2. What does this folder actually contain? (Look. Don't assume.)
+3. Do 1 and 2 match? If not, quote the lines that don't fit.
+
+Then list any rule that contradicts another rule,
+and any rule that doesn't apply to the work done here.
+Don't change any file.

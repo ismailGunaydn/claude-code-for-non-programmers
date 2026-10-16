@@ -1,0 +1,34 @@
+FINDING CHECK                              Date: __________
+Chapter 11, "Never Trust a Report You Didn't Check"
+
+Report from: ______________   Task: ______________________
+
+#  Agent's claim    Opened     My own  Hand-checked  Real    Act?
+                    the file?  count   (3 examples)  number
+-- ---------------  ---------  ------  ------------  ------  ----
+1  _______________  Y / N      ______  ___ of 3 OK   ______  Y/N
+2  _______________  Y / N      ______  ___ of 3 OK   ______  Y/N
+3  _______________  Y / N      ______  ___ of 3 OK   ______  Y/N
+4  _______________  Y / N      ______  ___ of 3 OK   ______  Y/N
+5  _______________  Y / N      ______  ___ of 3 OK   ______  Y/N
+
+How I recounted (search words, folder, built pages or source?):
+_______________________________________________________________
+
+What I tell the team or the client:
+"I verified. The real number is ____."    (never "the agent said")
+
+
+BEFORE YOU TRUST A GREEN CHECK
+[ ] What exactly does this check count? (write it down)
+[ ] Is that the thing I care about, or a neighbor of it?
+[ ] Did it look at the finished pages, or only the source files?
+[ ] Is the code it checked actually used anywhere?
+
+
+WHO CHANGED MY FILES? (only if your project uses git)
+If files suddenly look old, or changes vanish, ask Claude:
+  "Run git reflog and show me the last 20 lines.
+   Explain each line in plain words. Change nothing."
+A line like "reset: moving to HEAD" right after your work
+can mean someone ran git stash.

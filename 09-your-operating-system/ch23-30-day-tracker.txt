@@ -1,0 +1,76 @@
+30-DAY BUILD TRACKER                          Start date: __________
+Chapter 23, "Putting It Together: A 30-Day Build Plan"
+
+Rules:  One new piece per day. Every day ends with proof.
+        Proof = what you SAW on screen, not what you hoped.
+        If a day fails, redo it before moving on.
+        New ideas go on the LATER list at the bottom. Don't build them.
+
+WEEK 1: THE BASE
+Day Ch     Build                          Template / command           Proof I saw                  Done
+--- -----  -----------------------------  ---------------------------  ---------------------------  ----
+ 1  1      First Job List                 ch01-first-job-list          ___________________________  [ ]
+ 2  2      Install, first session         ch02-first-session-checklist ___________________________  [ ]
+ 3  3      Know your mode                 ch03-permission-test         ___________________________  [ ]
+ 4  5      Instruction sheet              ch05-starter-CLAUDE.md       ___________________________  [ ]
+                                          ch05-claude-md-sanity-check
+ 5  7, 20  First lock (deny / ask)        ch07-settings-permissions    ___________________________  [ ]
+                                          /permissions
+ 6  1, 22  Job 1 for real + undo          Esc Esc or /rewind           ___________________________  [ ]
+ 7  4      Look at the window             /context, /clear             ___________________________  [ ]
+
+WEEK 2: THE MIDDLE
+ 8  6      Look at memory                 /memory                      ___________________________  [ ]
+ 9  6      Give memory a shape            ch06-memory-rules, note and  ___________________________  [ ]
+                                          index templates
+10  7      Identity + reflexes            ch07-identity, ch07-reflexes ___________________________  [ ]
+                                          ch07-identity-block
+11  7      Decision rulebook              ch07-decisions (not imported)___________________________  [ ]
+12  7      First correction -> rule       ch07-feedback-note-template  ___________________________  [ ]
+13  22     Backup + first snapshot        Chapter 22                   ___________________________  [ ]
+14  6      First weekly memory review     ch06-weekly-memory-review    ___________________________  [ ]
+
+WEEK 3: THE HEAD
+15  8      First skill                    quote-check/, trigger test   ___________________________  [ ]
+16  9      One button                     weekly-report/               ___________________________  [ ]
+17  9      Plugin decision                plugin-checklist             ___________________________  [ ]
+18  10     First helper                   claim-checker, /agents       ___________________________  [ ]
+19  11     Check a report                 reviewer-rules, site-        ___________________________  [ ]
+                                          reviewer, finding-check
+20  12     One hook                       deny-rules, block-dangerous- ___________________________  [ ]
+                                          commands, /hooks
+21  -      Weigh it                       /context, /skill-doctor,     ___________________________  [ ]
+                                          /usage
+
+WEEK 4: THE ARMS AND THE HAT
+22  13     One headless job               morning-briefing, run-job    ___________________________  [ ]
+23  13     Put it on a schedule           task-scheduler-sheet         ___________________________  [ ]
+24  13     Job that watches the jobs      loop-health (break one!)     ___________________________  [ ]
+25  14     One connector                  mcp-setup-checklist, smoke   ___________________________  [ ]
+                                          test, gitignore lines, /mcp
+26  15     Optional: one browser task     browser-task-brief           ___________________________  [ ]
+27  16-18  One business system            case chapter of your choice  ___________________________  [ ]
+28  20-22  Safety pass                    key search, fact check,      ___________________________  [ ]
+                                          restore one file,
+                                          client-data checklist
+                                          (if you hold client records)
+29  19     Clear out the kitchen sink     "I'd miss it" list           ___________________________  [ ]
+30  24     One-page operating manual      weekly maintenance checklist ___________________________  [ ]
+           + first review booked
+
+LATER LIST (ideas that arrived mid-plan; build none of them this month)
+1. _______________________________________________________________
+2. _______________________________________________________________
+3. _______________________________________________________________
+
+MY ONE-PAGE OPERATING MANUAL (Day 30)
+What my system does:          _____________________________________
+Where the instruction file is: _____________________________________
+Where memory lives:            _____________________________________
+Skills and commands:           _____________________________________
+Helpers:                       _____________________________________
+Locks (deny / ask / hooks):    _____________________________________
+Scheduled jobs + health check: _____________________________________
+Connectors:                    _____________________________________
+Backup and where the copy is:  _____________________________________
+Weekly review day and time:    _____________________________________

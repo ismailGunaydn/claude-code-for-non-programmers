@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "search-data": {
+      "type": "http",
+      "url": "https://example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SEARCH_DATA_TOKEN}"
+      }
+    },
+    "shop-database": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "example-database-mcp-server",
+        "--read-only"
+      ],
+      "env": {
+        "DB_PROJECT_REF": "${DB_PROJECT_REF}",
+        "DB_ACCESS_TOKEN": "${DB_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

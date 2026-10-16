@@ -1,0 +1,31 @@
+FIRST SESSION CHECKLIST                           Date: __________
+
+BEFORE
+[ ] I know which terminal I'm in (Windows: line starts with "PS")
+[ ] I copied the WHOLE install line for my system
+[ ] I opened a NEW terminal after installing
+[ ] "claude --version" shows a number
+[ ] Windows only: Git for Windows installed, terminal restarted
+[ ] I made a practice folder and COPIED (not moved) files into it
+
+STARTING
+[ ] I used "cd" to walk into the practice folder
+[ ] I typed "claude" and logged in
+[ ] I said yes to trusting this folder (only because I made it)
+[ ] I read the mode on the status line: ________________
+[ ] I pressed Shift+Tab until it said "manual"
+
+WORKING
+[ ] First message was a look-around, with "Don't change anything"
+[ ] I gave Job 1 with a clear "done" and a clear "never"
+[ ] I read every permission request before answering
+[ ] I said no at least once when I wasn't sure (practice!)
+
+FINISHING
+[ ] I opened the output file and checked it myself
+[ ] I know how to undo: Esc twice, or /rewind
+[ ] I typed /exit
+[ ] My original files are untouched
+
+What surprised me: __________________________________________
+What I'd change in my request next time: ____________________

@@ -1,0 +1,36 @@
+REVIEWER RULES (paste at the end of every review prompt)
+Chapter 11, "Never Trust a Report You Didn't Check"
+
+1. You are a reviewer. You report. You do not fix.
+2. Do not create, edit, move or delete any file.
+3. Never run these commands, for any reason, even
+   "just to compare":
+     git stash      git stash pop    git checkout
+     git restore    git reset        git clean
+     git add        git commit       git push
+4. If you think you need one of these, stop and say
+   so in your report. I will decide.
+5. Every finding needs proof:
+     file name + line number + the exact text you saw.
+   No proof, no finding.
+6. Give real counts, and say how you counted:
+     "3 files, found by searching for X and for Y."
+   If you only looked at a sample, write "sample of N".
+7. Report real problems only. If you find nothing
+   important, say "nothing important found."
+   That is a good result.
+8. Do not trust web page summaries for numbers.
+   Quote numbers only from the raw page text, and
+   say which page they came from.
+
+----------------------------------------------------------
+FOR YOU, NOT THE REVIEWER: THE VERIFIER PROTOCOL
+(Chapter 11. Keep this next to the rules above.)
+
+1. Mechanical checks first. Run the count, the search,
+   the test or the build before anyone gives an opinion.
+2. Reviewers are truly read-only: a tool list that blocks
+   writing, plus banned commands listed one by one.
+3. Every finding is low-trust until someone checks it.
+4. Every claim comes with file + line + exact quote.
+5. Never show the checker the doer's explanation.

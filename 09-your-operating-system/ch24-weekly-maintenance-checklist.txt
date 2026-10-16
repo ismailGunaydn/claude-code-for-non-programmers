@@ -1,0 +1,76 @@
+MAINTENANCE CHECKLIST
+Chapter 24, "Keeping It Alive"
+
+Three rhythms. Book the weekly one on your calendar like a meeting.
+Change nothing in a hurry. One fix at a time, then test.
+
+=====================================================================
+WEEKLY WALK-AROUND (15 minutes)            Date: __________
+=====================================================================
+[ ] Health check: every scheduled job ran, and its newest
+    report is from this week? (Chapter 13)   ___ of ___ OK
+[ ] Inbox: any ALARM notes? Dealt with?
+[ ] Memory review prompt run? (Chapter 6)
+    Fixes approved: ___   Rejected: ___
+[ ] Did I correct Claude this week? Each correction saved
+    as a feedback note? (Chapter 7)
+[ ] Anything in my business changed? (prices, suppliers,
+    staff, opening hours, a new rule) Updated in the
+    file that holds it?   File: ______________
+[ ] Backup ran? Last snapshot date: ______________
+[ ] One thing I'd remove: ______________
+
+=====================================================================
+MONTHLY REVIEW (about 1 hour)              Month: __________
+=====================================================================
+[ ] claude --version   Now: ________  Last month: ________
+[ ] Read the weekly "What's new" pages since last month.
+    Anything that touches my setup? ______________________
+[ ] /doctor   Findings: ______________________
+[ ] /doctor prompt-audit (if available)
+    Proposed edits read. Accepted: ___   Rejected: ___
+[ ] /skill-doctor (if available) and /usage
+    Skill or plugin I never use: ______________________
+[ ] /context   Biggest row: ______________   Too big? Y / N
+[ ] Each skill's "Last checked" date. Any older than
+    3 months? Re-check its facts against the source.
+[ ] Plugins: any updated since I reviewed them?
+    Re-read with the plugin checklist (Chapter 9).
+[ ] Setup copies (setup script, template folder, second
+    machine) match the live files? Y / N
+[ ] Restore one file from backup to a test folder.
+    Opens and matches? Y / N (Chapter 22)
+
+=====================================================================
+VERSION-CHANGE DRILL                       Date: __________
+=====================================================================
+Run this when the monthly review shows a change that touches
+your setup, or when something starts acting strangely.
+
+Version before: ________   after: ________
+
+1. Read the release notes for every version in between.
+   Write down any line that names something I use.
+   ______________________________________________________
+2. Check the mode: start a session and read the status bar.
+   Is it the mode I expect?  Y / N
+3. Run the skill trigger test (Chapter 8) on my 3 most
+   important skills.          1 ___   2 ___   3 ___
+4. Run each scheduled job once with "Run now." Read the
+   reports myself.            ___ of ___ OK
+5. Type /hooks, /mcp, /permissions. Same as last month? Y / N
+6. Check any command I type by habit still does the same
+   thing. (Names do change.)
+7. If something broke: write down what, when and which
+   version. Don't fix three things at once.
+   ______________________________________________________
+
+=====================================================================
+DATED FACT LINE (paste at the top of any file that holds a fact)
+=====================================================================
+Last checked: [DATE] against [WHERE YOU CHECKED IT]
+
+Files that need this line in my setup:
+[ ] price rules        [ ] supplier notes     [ ] skills that quote
+[ ] opening hours      [ ] legal text             an outside rule
+[ ] ____________       [ ] ____________       [ ] ____________

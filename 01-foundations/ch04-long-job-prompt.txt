@@ -1,0 +1,19 @@
+LONG JOB PROMPT (for anything over an hour)
+
+The job: <what to do, e.g. "rewrite the description in every
+product file in the products folder">
+
+Work in batches of <NUMBER, e.g. 10> files.
+
+After EVERY batch:
+1. Update the file PROGRESS.md in this folder with:
+   - files finished (names)
+   - files still to do (names)
+   - anything you weren't sure about
+2. Tell me "Batch <n> done" in one line, then continue.
+
+If this session is cut off, the next session starts by reading
+PROGRESS.md and continuing from the first file still to do.
+Never redo a file that PROGRESS.md marks as finished.
+
+Never: <your "never" rules for this job>

@@ -1,0 +1,24 @@
+PUBLIC-TENDER GATES (before ANY number goes out)
+
+GATE 1  The unit-price schedule
+[ ] I have the official schedule / bill of quantities
+[ ] Every line in it has a line in my quote
+
+GATE 2  The document set
+[ ] Technical spec, drawings and schedule compared
+[ ] Differences listed and asked about in writing
+
+GATE 3  Power and measurements
+[ ] Measurements checked against the power ceiling
+[ ] Power the design needs: ____ / available: ____
+
+SEPARATE LINES (never hidden inside a unit price)
+[ ] Fixings (clamps, brackets, material grade)
+[ ] Electrics (drivers, waterproofing, cable type,
+    sealed connectors)
+[ ] Installation on site (crew, lift, days, permits)
+
+COSTS
+[ ] Every cost from my purchase list, or marked
+    "estimate"
+[ ] Someone other than the drafter checked the total

@@ -1,0 +1,41 @@
+FORM FILL: FIELD TYPES AND THE READ-BACK RULE
+
+Modern web forms don't all accept typing the same way. If a value
+"looks" filled but the form saves it empty, the field type is
+usually the reason. Tell Claude which kind of field it's facing,
+and always make it read the value back.
+
+FIELD TYPE: Plain text box
+  What tends to work: Click the box, then type
+  Check after:        Read the value back
+
+FIELD TYPE: Dropdown (select)
+  What tends to work: Choose the option the normal way, so the
+                      page notices the change
+  Check after:        Read the chosen option back
+
+FIELD TYPE: Radio button / checkbox
+  What tends to work: Click it
+  Check after:        Read which one is selected
+
+FIELD TYPE: Rich text editor (bold, lists)
+  What tends to work: Use the editor's own way of taking text;
+                      plain typing may lose formatting
+  Check after:        Read the formatted text back
+
+FIELD TYPE: Fields filled right after page load
+  What tends to work: Wait until the page finishes loading
+  Check after:        Read back again, values can vanish
+
+THE READ-BACK RULE
+1. Fill one field.
+2. Read it back from the page.
+3. If it doesn't match, fix it before the next field.
+4. At the end, show a full table: field | asked | shown | match.
+5. A human reads the table and presses the final button.
+
+STOP SIGNS (hand control back to the human)
+- A login or "enter your password again" screen
+- A CAPTCHA or "are you a robot" check
+- Any button that publishes, pays, submits or deletes
+- The tab crashes or the page reloads and values are gone

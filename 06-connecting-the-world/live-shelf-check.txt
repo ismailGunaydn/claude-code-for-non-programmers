@@ -1,0 +1,43 @@
+LIVE SHELF CHECK                                  Date: __________
+
+Idea / product: _____________________________________________
+
+Rule: no writing, no building, no buying stock until this sheet
+is filled in from the LIVE store page, not from a chatbot's memory.
+
+Prompt (read-only):
+
+  Use the browser. Open a new tab on <store>. Search for each
+  query below. For each query, read the first 8 organic
+  (not sponsored) results. For each result, open the product
+  page and copy what the page shows. Do not log in, do not
+  click buy, do not add to cart. If a value isn't on the page,
+  write "not shown". Report as tables.
+
+Queries:
+1. ______________________   2. ______________________
+3. ______________________   4. ______________________
+
+| # | Title (short) | Rank shown | Reviews | Published | Series* |
+|---|---------------|------------|---------|-----------|---------|
+| 1 |               |            |         |           |         |
+| 2 |               |            |         |           |         |
+| 3 |               |            |         |           |         |
+| 4 |               |            |         |           |         |
+| 5 |               |            |         |           |         |
+| 6 |               |            |         |           |         |
+| 7 |               |            |         |           |         |
+| 8 |               |            |         |           |         |
+
+Rank shown = the rank shown on the page.
+* Series = the same seller has how many in the series?
+
+What the shelf says (circle one):
+  EMPTY (and is that because nobody searches?)
+  OPEN   (a few weak listings, some recent sales)
+  CROWDED (series sellers, many reviews, strong leader)
+
+What does the leader have that I can't copy?
+_____________________________________________________________
+
+Decision:  GO   /   CHANGE THE ANGLE   /   KILL

@@ -1,0 +1,27 @@
+PROMPT (paste into Claude Code in your busiest folder)
+
+Audit my Claude Code setup. Read only. Change nothing.
+
+1. Count the skills, commands, agents, hooks and rule
+   files that load here: personal, project and plugin.
+2. List any two with similar or clashing names.
+3. List any whose description mentions a tool, language
+   or business I don't use: [MY TOOLS AND BUSINESS].
+4. Read the first 10 lines of every CLAUDE.md and rule
+   file that loads here. Does each one describe THIS
+   project? Quote any line that doesn't.
+5. Put it all in one table:
+   | Item | Where | Used in last 30 days? | Keep? |
+
+Then run /context, /usage and /skill-doctor (if your version has it).
+
+SETUP AUDIT                          Date: ________
+
+Window used before I type anything: ______
+Skills: ____   Agents: ____   Plugins: ____   Rules: ____
+Clashing names: ___________________________________
+Files describing the WRONG project: _______________
+Rules that don't apply to this work: ______________
+
+Removed today: ____________________________________
+Next audit: ________

@@ -1,0 +1,29 @@
+CONNECTOR SMOKE TEST                             Date: __________
+
+Connector: ___________________   Plan / account level: __________
+
+Rule: one REAL call per tool before any workflow depends on it.
+"Connected" means the plug fits. It does not mean the call works.
+
+Prompt to type in a fresh session:
+
+  Use the <connector name> connector. For each tool it offers,
+  make one small, real, read-only call with a harmless input.
+  Do not change, create or delete anything.
+  Report one row per tool: tool name | worked? | exact error
+  text if it failed. Do not guess. Do not retry more than once.
+
+| Tool / endpoint        | Works? | Error text (if any)  | Fallback            |
+|------------------------|--------|----------------------|---------------------|
+|                        | Y / N  |                      |                     |
+|                        | Y / N  |                      |                     |
+|                        | Y / N  |                      |                     |
+|                        | Y / N  |                      |                     |
+|                        | Y / N  |                      |                     |
+
+Line to add to my notes (fill in):
+
+  "<Connector>: tools X and Y work. Tools Z fail with
+  '<error>'. For Z, use <fallback> and say in the report
+  that the numbers are signals, not exact data.
+  Re-test on: __________"

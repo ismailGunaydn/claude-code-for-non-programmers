@@ -1,0 +1,15 @@
+INSTRUCTIONS OR MEMORY?
+
+Goes in CLAUDE.md
+(you write it, it rarely changes)
+- What this business is
+- Words, spelling, tone
+- Folders that are off limits
+- How you want plans and reports
+
+Goes in memory
+(it changes as you work)
+- A decision made last week
+- A correction you just gave
+- Who to call about the new supplier
+- Where this month's figures are

@@ -1,0 +1,15 @@
+# Add these lines to the .gitignore file in your project folder.
+# They keep connector secrets out of git. Adjust names to match
+# the files your connector actually creates (check its README).
+
+# Local environment files that hold keys
+.env
+.env.*
+
+# OAuth client and token files used by connectors
+*client_secret*.json
+*credentials*.json
+*token*.json
+
+# Claude Code's personal, per-machine settings
+.claude/settings.local.json

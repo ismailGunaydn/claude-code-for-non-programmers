@@ -1,0 +1,13 @@
+NEW MACHINE CHECKLIST                           Date: __________
+
+[ ] User instruction file present (~/.claude/CLAUDE.md)?
+    Open a session, type /context, look under "Memory files."
+[ ] Skills: count on old machine ____   on this one ____
+[ ] Scheduled jobs listed and enabled? ____ of ____
+[ ] Memory copied? Ask: "Show me MEMORY.md." Same lines?
+[ ] Notes folder (if you keep one) reachable from here?
+[ ] Files git leaves out (big PDFs, images, local settings)
+    copied separately? Count them on both machines.
+[ ] Setup script run? Then check what it actually did.
+    Don't trust "done." Count the results.
+[ ] First real task done and checked on this machine?

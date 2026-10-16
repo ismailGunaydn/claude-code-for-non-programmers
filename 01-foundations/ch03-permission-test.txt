@@ -1,0 +1,16 @@
+PERMISSION TEST (5 minutes, practice folder only)
+
+[ ] Personal default set: ~/.claude/settings.json has
+    "defaultMode": "default"
+[ ] New session starts with "manual" on the status line
+[ ] Project file exists: .claude/settings.json in the
+    practice folder
+[ ] Every <PLACEHOLDER> replaced or deleted
+[ ] /permissions shows my deny, ask and allow rules
+[ ] Test file "secrets/test.txt" contains ONLY a harmless line
+[ ] Asked Claude to read it: it was refused
+[ ] Asked Claude to delete a copy: it asked me first
+[ ] Plan mode: Claude wrote a plan and changed nothing
+[ ] I know: rules = locks, modes = how often I'm asked
+[ ] I know: a rule matches the words of a command,
+    not every way of doing the same thing

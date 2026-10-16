@@ -1,0 +1,15 @@
+IMPRESSIONS FELL. DO THIS IN ORDER.       Date of drop: ______
+
+1. Live-test screenshot (home + top page)
+   Blank space or missing sections?   -> render problem. Stop.
+2. Raw HTML count
+   Hidden-at-start sections: ____  Menu links in HTML: ____
+3. My own deploys, 7 days before the drop
+   What changed? ______________________________
+4. Site moves
+   Domains, redirects, address-change signals: ____________
+5. Algorithm updates
+   Only now. Does the timing really match? Y / N
+
+Write down which step found it. Write down if two fixes
+landed close together, because then you can't credit one.

@@ -1,0 +1,25 @@
+CONTEXT BUDGET CHECKLIST
+
+AT THE START OF A SESSION
+[ ] I'm in the right folder (one job, one folder)
+[ ] I ran /context. Window already used before I typed: ______
+[ ] Biggest piece at startup: _______________________
+[ ] Rules that matter today are in CLAUDE.md, not in my head
+
+DURING THE SESSION
+[ ] New job? I typed /clear first
+[ ] Huge file? I asked Claude to read it in parts
+[ ] Wordy research? I asked for a subagent to do it
+[ ] Before a summary, I used: /compact keep <what matters>
+[ ] Long job? Progress file is updated after every batch
+
+WHEN SOMETHING FEELS OFF
+[ ] Claude forgot a rule  -> put it in CLAUDE.md (and a deny rule)
+[ ] "Context limit reached" -> /compact with a focus, or /clear
+[ ] "Thrashing" error -> stop loading the big file whole
+[ ] Usage climbing fast -> /usage, then /clear between tasks
+
+ONCE A MONTH
+[ ] /context in my busiest folder: still reasonable?
+[ ] Skills, plugins, connections I haven't used this month: ____
+[ ] Turned off or removed the ones I wouldn't miss

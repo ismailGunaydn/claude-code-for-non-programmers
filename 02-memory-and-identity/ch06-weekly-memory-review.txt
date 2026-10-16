@@ -1,0 +1,8 @@
+WEEKLY MEMORY REVIEW (5 minutes)
+
+Read MEMORY.md and every note it points to. Then tell me:
+1. Notes older than 3 months that make a claim about the present.
+2. Notes that contradict each other or contradict a file.
+3. Notes that repeat something CLAUDE.md already says.
+4. The index length in lines, and whether it's near the limit.
+Propose a fix for each item. Change nothing until I say yes.

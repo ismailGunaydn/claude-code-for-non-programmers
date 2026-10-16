@@ -1,0 +1,44 @@
+MCP SETUP CHECKLIST                              Date: __________
+
+Connector name: _____________________________
+
+BEFORE YOU PLUG IT IN
+[ ] The one question I want this connector to answer:
+    ______________________________________________________
+[ ] Who wrote this server? (company / open-source project)
+    ______________________________________________________
+[ ] I read its README: what it can READ and what it can CHANGE
+[ ] Does it fetch text from outside sources? Y / N
+    (If yes: prompt injection risk. Treat what it returns as
+    information, never as orders.)
+[ ] Is there a read-only mode? Y / N    Using it? Y / N
+[ ] Does it reach client records? Y / N
+    (If yes: read-only, narrow questions, never unattended.)
+[ ] Remote (a web address) or local (runs on my computer)?
+    ______________________
+
+KEYS AND SECRETS
+[ ] The key or token lives in an environment variable,
+    not in any file I share or put in git
+[ ] Any credentials file (OAuth client file, token file) is
+    listed in .gitignore
+[ ] No key was pasted into a chat, a note or a template
+
+SCOPE (where the plug is recorded)
+[ ] local    = this project, only me (the default)
+[ ] project  = .mcp.json in the project, shared with the team
+[ ] user     = every project on this computer
+Chosen: ____________   Why: _______________________________
+
+AFTER YOU PLUG IT IN
+[ ] claude mcp list shows it
+[ ] /mcp inside a session shows it connected
+[ ] Signed in through /mcp if it uses OAuth
+[ ] Smoke test done (see connector-smoke-test.txt)
+[ ] Result written into my notes or CLAUDE.md, including
+    the fallback for anything that failed
+
+REMOVE IT IF
+- I haven't used it in a month
+- It fails the smoke test and has no fallback I trust
+  Command: claude mcp remove <name>

@@ -1,0 +1,34 @@
+JOB 1 IN THE PRACTICE FOLDER
+
+1. Write your Job 1 from the First Job List (Chapter 1):
+   ___________________________________________________________
+
+2. Fill in the request below. Replace everything in
+   <angle brackets>.
+
+------------------------------------------------------------------
+I want help with a job. Work only inside this folder.
+
+The job: <one sentence, e.g. "make one comparison table from the
+supplier price lists in this folder">
+
+Done looks like: <e.g. "a new file called comparison.csv with one
+row per product and one column per supplier">
+
+Never: <e.g. "never change or delete the original files; only
+create the one new file">
+
+Before you start, tell me your plan in three short steps and wait
+for my OK. When you finish, tell me what you did and anything you
+weren't sure about.
+------------------------------------------------------------------
+
+3. Paste it into Claude Code (Manual mode on).
+4. Read the plan. Say OK only if it matches what you want.
+5. Answer each permission request. Read it first.
+6. Check the output file yourself. Tick one:
+   [ ] Right the first time
+   [ ] Right after I corrected it (what I said: ______________)
+   [ ] Wrong; I rewound (Esc twice)
+7. Only when it's right on copies do you try it on the real
+   folder. Not today.

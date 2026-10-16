@@ -1,0 +1,69 @@
+RECOVERY PROMPTS
+From "Claude Code for Non-Programmers", Chapter 22.
+Each prompt reports first and changes nothing until you say so.
+
+------------------------------------------------------------
+1. "I CAN'T FIND THIS FILE ON MY OTHER COMPUTER"
+------------------------------------------------------------
+I can't find [FILE NAME] on this computer, but it exists
+on my other one. Check, without changing anything:
+- Is it on the ignore list? If yes, show me which rule.
+- Was it ever committed? If yes, in which commit?
+- Is there anything committed but not pushed, or pushed
+  but not pulled here?
+Tell me which of these it is, in one sentence.
+
+------------------------------------------------------------
+2. "STRANGE FILES APPEARED IN THIS PROJECT"
+------------------------------------------------------------
+Files appeared in this project that I didn't make.
+I suspect they came from [OTHER PROJECT FOLDER].
+Do not delete or change anything. Report only.
+1. List the new files, split into tracked and untracked.
+2. Compare them byte for byte with the suspected source.
+   Tell me how many are identical.
+3. List any of MY tracked files that were changed or
+   overwritten (including CLAUDE.md).
+4. Tell me which ones git can restore, and which ones it
+   can't because they were never committed.
+I will decide what to restore, keep or remove.
+
+------------------------------------------------------------
+3. "FILES OPEN AS EMPTY OR GARBAGE"
+------------------------------------------------------------
+Some files in this project look empty or broken.
+Do not change anything. Report only.
+1. Compare each committed file on disk with the
+   fingerprint git recorded. List the ones that differ.
+2. List files that are empty.
+3. Check that images end properly and PDFs start with a
+   PDF header.
+4. Ask git to check its own records for damage.
+5. Tell me whether the GitHub copy of each damaged file
+   looks intact.
+Then suggest the safest way to restore from GitHub, and
+wait for my OK.
+
+------------------------------------------------------------
+4. "GIT REFUSES TO WORK IN THIS FOLDER"
+------------------------------------------------------------
+Git refuses to work in this folder. Show me the exact
+message. If it says "dubious ownership", explain in plain
+words what that means and how to mark ONLY this one
+folder as safe. Do not run it. I will approve it myself.
+
+------------------------------------------------------------
+5. "MY DEPLOYS ARE BLOCKED AFTER SWITCHING COMPUTERS"
+------------------------------------------------------------
+My website host blocked a deploy after I committed from
+this computer. Check which name and email my commits use
+on this computer, without printing anything else. Tell me
+whether it might differ from the account my host expects,
+and how to change it for this project only.
+
+------------------------------------------------------------
+6. "UNDO TODAY"
+------------------------------------------------------------
+Show me the commits from the last 7 days, newest first,
+one line each with date and note. Do not change anything.
+I will choose the one to go back to.

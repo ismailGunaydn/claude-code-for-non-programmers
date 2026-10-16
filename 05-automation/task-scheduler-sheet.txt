@@ -1,0 +1,44 @@
+TASK SCHEDULER COMMAND SHEET (Windows)
+Chapter 13, "Running Without You: Headless and Scheduled Work"
+Type these in a terminal. Replace the task names and times with yours.
+Keep the kit in a folder with no spaces in its path (example: C:\ai-jobs).
+
+CREATE A DAILY JOB (7:30 every morning)
+  schtasks /Create /TN "AI-Morning-Briefing" /SC DAILY /ST 07:30 /TR "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\ai-jobs\run-job.ps1 -JobName morning-briefing"
+
+CREATE A WEEKLY JOB (Mondays at 8:00)
+  schtasks /Create /TN "AI-Weekly-Review" /SC WEEKLY /D MON /ST 08:00 /TR "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\ai-jobs\run-job.ps1 -JobName weekly-review"
+
+CREATE THE HEALTH CHECK (Mondays at 9:00, after the others)
+  schtasks /Create /TN "AI-Loop-Health" /SC WEEKLY /D MON /ST 09:00 /TR "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:\ai-jobs\loop-health.ps1"
+
+FIX THE TWO SETTINGS THAT SILENTLY STOP JOBS
+(run in PowerShell, once per task)
+  Set-ScheduledTask -TaskName "AI-Morning-Briefing" -Settings (New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable)
+  - AllowStartIfOnBatteries: the job runs on a laptop that is not plugged in.
+  - StartWhenAvailable: a missed run happens as soon as the computer is back.
+  Note: this replaces the task's other settings with defaults. Check the
+  Settings and Conditions tabs in Task Scheduler afterwards.
+
+RUN A JOB NOW (to test it)
+  schtasks /Run /TN "AI-Morning-Briefing"
+
+SEE WHEN IT LAST RAN AND HOW IT ENDED
+  schtasks /Query /TN "AI-Morning-Briefing" /V /FO LIST
+  Look at "Last Run Time" and "Last Result". 0 means OK.
+  Remember: "Status: Ready" only means it is waiting. It says nothing
+  about whether the last run worked.
+
+CHANGE THE TIME
+  schtasks /Change /TN "AI-Morning-Briefing" /ST 08:15
+
+PAUSE AND RESUME
+  schtasks /Change /TN "AI-Morning-Briefing" /DISABLE
+  schtasks /Change /TN "AI-Morning-Briefing" /ENABLE
+
+DELETE
+  schtasks /Delete /TN "AI-Morning-Briefing"
+
+ABOUT THE WINDOW
+  -WindowStyle Hidden hides the console window, but it can still flash
+  for a moment when the job starts. Don't close it. It is your job.

@@ -1,0 +1,14 @@
+WEEKLY UPLOAD SLOTS     Week resets: [SUN 00:00 UTC]
+                        Slots per format: [2, as observed]
+
+WEEK OF   | E-BOOK 1   | E-BOOK 2   | PRINT 1    | PRINT 2
+----------|------------|------------|------------|------------
+[DATE]    |            |            |            |
+[DATE]    |            |            |            |
+
+(each column is one upload slot)
+
+Before opening any new-title form:
+[ ] Count this week's new titles in THIS format
+[ ] A slot is free
+[ ] All text for the form is ready in one file

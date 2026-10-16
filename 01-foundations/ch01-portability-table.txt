@@ -1,0 +1,10 @@
+WHAT MOVES IF I EVER CHANGE TOOLS?
+
+Part of my setup              Format            Moves for free?
+---------------------------   ---------------   ---------------
+Identity and rules            plain text (.md)  Yes
+Memory notes                  plain text (.md)  Yes
+Knowledge notes (vault)       plain text (.md)  Yes
+Skills                        tool-specific     Rewrite needed
+Scheduled jobs                tool-specific     Rewrite needed
+Connections to other apps     tool-specific     Rewrite needed
