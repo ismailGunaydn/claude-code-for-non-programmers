@@ -1,0 +1,14 @@
+# Secrets and local settings never belong here
+.env
+.env.*
+*.key
+*.pem
+settings.local.json
+.claude/settings.local.json
+mcp-servers.json
+credentials*.json
+token*.json
+
+# OS noise
+.DS_Store
+Thumbs.db
