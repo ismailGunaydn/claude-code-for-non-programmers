@@ -1,18 +1,11 @@
-# Part 6. Connecting the World: templates
+# Part 6. Connecting The World
 
-Files for Chapters 14 and 15. Replace everything in angle brackets
-or square brackets. None of these files holds a real key, address
-or account detail. Keep it that way.
+Templates from this part of the book. The prefix (`ch05-`, `ch12-` and so on) is the chapter that explains the file. Read that chapter before you copy it.
 
-Chapter 14 (MCP)
-- mcp-setup-checklist.txt: before and after you plug in a connector
-- connector-smoke-test.txt: one real call per tool, with fallbacks
-- mcp.json.example: a shared project connector file with
-  placeholder environment variables (rename to .mcp.json)
-- mcp-gitignore-lines.txt: lines that keep connector secrets out of git
-
-Chapter 15 (Browser)
-- browser-task-brief.md: the safety brief you paste before any
-  browser task
-- live-shelf-check.txt: a read-only market check sheet
-- form-fill-readback.txt: field types and the read-back rule
+- `browser-task-brief.md`
+- `connector-smoke-test.txt`
+- `form-fill-readback.txt`
+- `live-shelf-check.txt`
+- `mcp-gitignore-lines.txt`
+- `mcp-setup-checklist.txt`
+- `mcp.json.example`

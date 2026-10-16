@@ -1,3 +1,6 @@
-# 09-your-operating-system
+# Part 9. Your Operating System
 
-Templates for this part of the book will appear here as chapters are finished.
+Templates from this part of the book. The prefix (`ch05-`, `ch12-` and so on) is the chapter that explains the file. Read that chapter before you copy it.
+
+- `ch23-30-day-tracker.txt`
+- `ch24-weekly-maintenance-checklist.txt`
